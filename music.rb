@@ -3,7 +3,16 @@
 # This method should accept a hash as an argument.
 
 def list_artists
-  
+  @library = {
+      :taylor_swift => "Style",
+      :silento => "Watch Me",
+      :selena_gomez => "Good For You",
+      :mark_ronson => "Uptown Funk!",
+      :andy_grammer => "Honey I'm Good",
+      :maroon_five => "Sugar"
+    }
+    
+  return list_artists(@library)
 
 
 #2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
