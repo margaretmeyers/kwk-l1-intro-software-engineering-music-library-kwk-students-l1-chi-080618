@@ -2,17 +2,18 @@
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
 
-def list_artists(library)
-  library = {
+ library = {
       :taylor_swift => "Style",
       :silento => "Watch Me",
       :selena_gomez => "Good For You",
       :mark_ronson => "Uptown Funk!",
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
-    }
+   }
+
+def list_artists(library)
+  puts library.each_key
 end
-  puts list_artists(library)
 
 
 
