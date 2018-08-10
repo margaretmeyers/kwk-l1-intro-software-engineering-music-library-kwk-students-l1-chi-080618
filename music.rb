@@ -3,7 +3,7 @@
 # This method should accept a hash as an argument.
 
 def list_artists
-  @library = {
+  library = {
       :taylor_swift => "Style",
       :silento => "Watch Me",
       :selena_gomez => "Good For You",
@@ -11,10 +11,11 @@ def list_artists
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
     }
-end 
+end
+  puts list_artists(library).key
+  
 
-    
-  return @library.keys
+
   
 
 
