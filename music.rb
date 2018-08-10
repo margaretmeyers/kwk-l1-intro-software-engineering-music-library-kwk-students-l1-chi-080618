@@ -11,8 +11,8 @@ def list_artists
       :andy_grammer => "Honey I'm Good",
       :maroon_five => "Sugar"
     }
-  end 
 end 
+
     
   return list_artists(@library).keys
 
