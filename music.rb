@@ -12,8 +12,9 @@
    }
 
 def list_artists(library)
-  puts library.each_key
+  puts library.keys
 end
+puts list_artists(library)
 
 
 
